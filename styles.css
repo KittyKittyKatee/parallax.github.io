@@ -1,0 +1,44 @@
+body {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #445055;
+	
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.main {
+    padding-top: 120px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.work {
+    margin-bottom: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.work__img {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+.work__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.work__title {
+    position: absolute;
+    font-size: 90px;
+    display: inline;
+    right: -200px;
+}
